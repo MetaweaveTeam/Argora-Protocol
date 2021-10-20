@@ -4,7 +4,7 @@ Argora is a fully decentralized network living on Arweave.
 
 You can use the latest permanently deployed version on https://argora.xyz
 
-Because Argora is fully decentralized, there is no need for traditional APIs, you can simply cherry-pick in the blockchain the same way Argora do.
+Because Argora is fully decentralized, there is no need for traditional APIs, you can simply cherry-pick in the information you need in the blockweave and build your service around the Argora protocol.
 
 >⚠️ At this stage, argora is in Alpha version. The protocol is going to be different in the beta version to enable more feature and interactivity as a social content market.
 
@@ -101,3 +101,6 @@ result = await ardb.search('transactions')
 .tag('reply-to', 'world')
 .find()
 ```
+
+## Data structure
+
