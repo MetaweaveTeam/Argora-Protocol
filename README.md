@@ -8,7 +8,7 @@ Because Argora is fully decentralized, there is no need for traditional APIs, yo
 
 >⚠️ At this stage, argora is in Alpha version. The protocol is going to be different in the Beta version to enable more feature and interactivity as a social content market.
 
-A post submitted on Argora is called a Weeve. At the moment, a weeve support unlimited text size and picture. It is planed to support more media in the next protocol version.
+__A post submitted on Argora is called a Weeve__. At the moment, a weeve support unlimited text size and picture. It is planed to support more media in the next protocol version.
 
 # Argora Protocol v1.1 (Alpha)
 
