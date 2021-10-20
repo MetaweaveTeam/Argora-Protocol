@@ -10,7 +10,7 @@ Because Argora is fully decentralized, there is no need for traditional APIs, yo
 
 A post submitted on Argora is called a Weeve. At the moment, a weeve support unlimited text size and picture. It is planed to support more media in the next protocol version.
 
-# Argora Protocol v1.1
+# Argora Protocol v1.1 (Alpha)
 
 Each Weeve is transaction whom the content is stored as part of [the data](https://github.com/ArweaveTeam/arweave-js#create-a-data-transaction) and sorted through [tx tags](https://github.com/ArweaveTeam/arweave-js#add-tags-to-a-transaction).
 
