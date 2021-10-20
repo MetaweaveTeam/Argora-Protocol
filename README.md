@@ -70,7 +70,7 @@ result = await ardb.search('transactions')
 .find()
 ```
 
-### Get the `Argora` planet feed
+### Get the `dog lovers` planet feed
 
 Using [graphql](https://arweave.net/graphql):
 ```
@@ -79,7 +79,7 @@ Using [graphql](https://arweave.net/graphql):
     tags: [
       { name: "App-Name", values: "argora" }
       { name: "App-Version", values: ["1.0", "1.1"] }
-      { name: "planet", values: "Argora" }
+      { name: "planet", values: "dog lovers" }
       { name: "reply-to", values: "world" }
     ]
   ) {
@@ -99,7 +99,7 @@ Using [ardb](https://github.com/textury/ardb):
 result = await ardb.search('transactions')
 .tag('Protocol-Name', 'argora')
 .tag('Protocol-Version', ['1.0', '1.1'])
-.tag('planet', 'Argora')
+.tag('planet', 'dog lovers')
 .tag('reply-to', 'world')
 .find()
 ```
