@@ -106,3 +106,31 @@ result = await ardb.search('transactions')
 
 ## Data structure
 
+Weeve [transaction data](https://github.com/ArweaveTeam/arweave-js#get-transaction-data) is in a simple JSON format with an optional `pictures` key pointing on the txid of the uploaded pictures.
+
+>⚠️ Although the protocol implements an array of picture txids, only one picture is currently supported by Argora at the moment.
+
+```
+{
+  "text": string,
+  "pictures": [txid]
+}
+```
+
+To access the picture file, you only need to request your favorite gateway with the relevant txid.
+
+### Example
+- Weeve [KAKvuCtXPR8zPjD6HfjZBCMSfvuIIawvPStCaP_Pzhk](https://i3ixpvvdzvtrbey65qo6zfct3v3vcfyclz2yaaodt5zngcwbqbjq.arweave.net/RtF31qPNZxCTHuwd7JRT3XdRFwJedYABw59y0wrBgFM/thread/KAKvuCtXPR8zPjD6HfjZBCMSfvuIIawvPStCaP_Pzhk)
+
+![Screenshot 2021-10-20 at 06 24 40](https://user-images.githubusercontent.com/7074019/138028148-09da8f02-a421-453d-9c41-cf7c36e2e233.png)
+
+- data:
+
+```
+{
+  "text": "State of the Ecosystem (Oct. 2021)\nProvided by The Verto Protocol!",
+  "pictures": ["JnBv9s1FXdKAwHGwIIpOrplJhcLqPsIkg-2S7Cgu0n0"]
+}
+```
+
+Picture: https://arweave.net/JnBv9s1FXdKAwHGwIIpOrplJhcLqPsIkg-2S7Cgu0n0
