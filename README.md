@@ -1,14 +1,34 @@
-# Argora
+# What is Argora protocol?
 
-Argora is a fully decentralized network living on Arweave.
+Argora was the initial name of the permadapp called today [Metaweave](https://metaweave.xyz). Because the plateforme is still based on the same data protocol, the original name hasn't changed.
 
-You can use the latest permanently deployed version on https://argora.xyz
-
-Because Argora is fully decentralized, there is no need for traditional APIs, you can simply cherry-pick the information you need in the blockweave and build your service around the Argora protocol.
-
->⚠️ At this stage, argora is in Alpha version. The protocol is going to be different in the Beta version to enable more feature and interactivity as a social content market.
+Like Metaweave, anyone can freely reuse the Argora protocol and make their own version of Metaweave, you can simply cherry-pick the information you need in the blockweave and build your service around the Argora protocol.
 
 __A post submitted on Argora is called a Weeve__. At the moment, a weeve support unlimited text size and picture. It is planed to support more media in the next protocol version.
+
+# Argora Protocol v1.2-beta
+
+## Required tags
+
+Each transaction Weeve is required to have theses 2 tags:
+
+- `Protocol-Name`: `argora`
+- `Protocol-Version`: `1.2-beta`
+
+## Optional tags
+
+- `community`: string
+
+Get Weeves belonging to a specific community timeline.
+If missing, get the last Weeves, metaweave and all planets included.
+
+- `reply-to`: `txid` | `"world"` | @`jwk`
+
+possible value      | description
+--------------------|------------------------
+`txid`              | Get Weeves belonging to a specific Weeve `txid` sub-timeline (replies).
+`"world"`           | Get Weeves belonging to the main timeline, can be combined with the `community` tag.
+@`jwk`              | Get Weeves belonging to a specific profile `jwk` timeline.
 
 # Argora Protocol v1.1 (Alpha)
 
